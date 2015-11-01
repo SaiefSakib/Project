@@ -37,7 +37,7 @@ header .menu {
 
 nav{
     float: left;
-    margin: 5px 0px 0 0;
+    margin-top: 5px;
 }
 nav a{
     margin: 0 10px 0 0;
@@ -49,9 +49,6 @@ nav a{
 }
 nav a:hover{
     color: #e6853c;
-}
-.searchbox{
-    
 }
 .searchbox form input[type=search]{
     background: transparent url("../images/search_bg.png") no-repeat;
@@ -153,14 +150,6 @@ animation: spin2 2s infinite linear, spin2 5s infinite ease-in-out alternate;
 0% { -o-transform: rotate(0deg) scale(1);}
 100% { -o-transform: rotate(360deg) scale(.5);}
 }
-@-ms-keyframes robot {
-0% { -ms-transform: rotate(0deg) scale(1);}
-100% { -ms-transform: rotate(360deg) scale(.5);}
-}
-@-keyframes robot {
-0% { transform: rotate(0deg) scale(.5);}
-100% { transform: rotate(360deg) scale(1);}
-}
 .sep img{
     margin: 40px 0 20px 0;
 }
@@ -186,20 +175,18 @@ animation: spin2 2s infinite linear, spin2 5s infinite ease-in-out alternate;
 .more_about a{
 font-size: 13px;
 color: #393939;
-display: inline-block;
 float: right;
 text-decoration: none;
 font-family: arial;
 padding: 7px 80px 12px 17px;
 margin-top: 80px;
-background: transparent url("../images/read_bg.jpg") no-repeat scroll 0px 0px;
+background: transparent url("../images/read_bg.jpg") no-repeat scroll;
 }
 .about a:hover{
     color: #e5953b;
 }
 .blog{
     margin: 20px 0 0 10px;
-    width: 45%;
     display: inline;
 }
 .proper_blog{
@@ -207,7 +194,6 @@ background: transparent url("../images/read_bg.jpg") no-repeat scroll 0px 0px;
 }
 .blog .recent_blog{
     margin: 0;
-    width: 45%;
     display: inline;
     color: #2f3436;
 }
@@ -226,7 +212,7 @@ text-decoration: none;
 font-family: arial;
 padding: 7px 80px 12px 17px;
 margin-top: 70px;
-background: transparent url("../images/read_bg.jpg") no-repeat scroll 0px 0px;
+background: transparent url("../images/read_bg.jpg") no-repeat scroll;
 }
 .more_blog a:hover{
     color: #e5953b;
@@ -252,7 +238,7 @@ background: transparent url("../images/read_bg.jpg") no-repeat scroll 0px 0px;
     width: 100%;
     margin-top: 159px;
     height: auto;
-    padding: 0px 0 100px 0;
+    padding-bottom:100px;
     background: url("../images/footer_bg.png") no-repeat;
 }
 footer{
@@ -285,8 +271,8 @@ footer{
     display: inline;
 }
 .footer1 .socil_icon ul li a{
-    color: #FFF;
-background: #6F6F6F none repeat scroll 0% 0%;
+color: #FFF;
+background: #6F6F6F none repeat scroll;
 padding: 6px 0 0 11px;
 height: 40px;
 width: 40px;
@@ -295,7 +281,7 @@ border-radius: 650px;
 font-size: 15px;
 }
 .footer1 .socil_icon ul li a:hover{
-   background: #e5953b none repeat scroll 0% 0%; 
+   background: #e5953b none repeat scroll; 
 }
 .footer1 .socil_icon ul li a i{
     margin: 6px 0 0 7px;
@@ -335,7 +321,6 @@ font-size: 15px;
 }
 
 .footer4{
-    padding-top: 0px; 
     margin-right: 190px;
     margin-top: -272px;
     float: right;
